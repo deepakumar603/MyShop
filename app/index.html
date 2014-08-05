@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MyShop</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{BASE_TAG}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/my-shop.css">
+  </head>
+  <body>
+    <script>
+      window.MyShopENV = {{ENV}};
+      window.EmberENV = window.MyShopENV.EmberENV;
+    </script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/my-shop.js"></script>
+    <script>
+      window.MyShop = require('my-shop/app')['default'].create(MyShopENV.APP);
+    </script>
+  </body>
+</html>
