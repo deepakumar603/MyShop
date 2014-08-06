@@ -1,0 +1,12 @@
+<ul class="inline">
+	{{#each product in controller}}
+	<div class="col-md-3">
+		<div class="thumbnail">
+		<li class="mid"><img {{bind-attr src="product.imageUrl"}}></li>
+			<div class="c">
+		<li class="mid1">{{product.master.display_price}}</li>
+			</div>			
+		</div>
+    </div>		
+    {{/each}}
+</ul>

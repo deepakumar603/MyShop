@@ -18,3 +18,29 @@ html, body {
       .panel-collapse div.list-group .list-group a.list-group-item {border-top: 1px solid #ddd;border-bottom: 0;padding-left: 30px;}
 
 
+
+ul.inline {
+      display: inline;
+      list-style-type: none;
+
+}
+
+li.mid {
+      margin-left: 35px;
+}
+li.mid1 {
+      
+      margin-left : 54px;
+}
+div.c {
+      background-color: #b0c4de;
+}
+
+div.thumbnail:hover{
+      border-color: violet;
+      border-style: solid;
+      border-width: 1.8px;
+}
+
+
+

@@ -45,25 +45,16 @@
 		<span class="glyphicon glyphicon-chevron-right"></span>
 		</a>
 	</div>	
-
+	</div>
+	</div>
+	
+	
 	<div class="row">
-  		<div class="col-sm-6 col-md-4">  
-  
-      <ul class="navbar navbar-inverse">
-		{{#each product in controller}}
-		<li><img {{bind-attr src="product.imageUrl"}}></li>
-		<div class="caption">
-        <li>{{product.master.display_price}}</li>
-        </div>	
-	
-		{{/each}}
-	  </ul>
-    
-  
-  		</div>
+  		    
+      		<br><br>
+	{{view "show"}}
 	</div>
+	
 
-	
-	</div>
 </div>
 
