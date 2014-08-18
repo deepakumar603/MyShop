@@ -6,7 +6,7 @@ export default DS.ActiveModelSerializer.extend(DS.EmbeddedRecordsMixin, {
     attrs: {
 
     	master: {embedded: 'always'} ,
-        images: {embedded: 'always'} 	
+        images: {embedded: 'always'} ,
   },
 
   extractArray: function(store, type, payload) {
